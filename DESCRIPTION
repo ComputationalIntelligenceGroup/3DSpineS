@@ -1,0 +1,30 @@
+Package: spineSimulation
+Type: Package
+Title: Dendritic spine simulation from a probabilistic model
+Version: 0.1
+Date: 2017-02-26
+Author: Sergio Luengo-Sanchez
+Maintainer: Sergio Luengo-Sanchez <sluengo@fi.upm.es>
+Description: Model-based clustering with multivariate Gaussian distributions. Results are interpreted with tools like multidimensional scaling based on Hellinger distance, probability distributions and overlapping between clusters. We also introduce a method to simulate three-dimensional spines.
+License: GPL >=2
+Depends: R (>= 3.2.0),
+        mclust,
+        foreign,
+        ROSE,
+        rgl,
+        MASS,
+        tmvtnorm,
+        ggplot2,
+        Rvcg(>= 0.13),
+        Rcpp,
+        MixSim,
+        scales,
+        tmvtnorm,
+        geometry,
+        data.table
+LazyData: TRUE
+LinkingTo: Rcpp
+Imports: Rcpp
+RoxygenNote: 6.0.1
+Suggests: knitr
+VignetteBuilder: knitr
